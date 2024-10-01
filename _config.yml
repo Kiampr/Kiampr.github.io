@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Kiarash"
-  pronouns         : # example: "He/Him"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         :  "He/Him"  
+  bio              : "Geo computational scientist"
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "Kiarash.mansourpour@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -37,7 +37,7 @@ author:
   orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : https://www.researchgate.net/profile/Kiarash-Mansour-Pour
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
