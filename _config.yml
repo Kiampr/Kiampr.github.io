@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Kiarash's Homepage"
 title_separator          : "-"
 name                     : &name "Kiarash Mansour Pour, PhD"
 description              : &description "personal description"
