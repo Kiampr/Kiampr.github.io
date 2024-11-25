@@ -6,14 +6,15 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+    #url: /publications/
+    url: https://scholar.google.nl/citations?user=5aMaXWgAAAAJ&hl=nl
 
   - title: "Talks"
     url: /talks/    
 
   - title: "Teaching"
     url: /teaching/    
-    
+     
   - title: "Portfolio"
     url: /portfolio/
         
