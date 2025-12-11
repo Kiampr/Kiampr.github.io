@@ -4,7 +4,7 @@ collection: teaching
 type: "Master course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Delft University of Technology"
-date: 2023
+date: 2015-01-01
 location: "Delft, The Netherlands"
 ---
 
