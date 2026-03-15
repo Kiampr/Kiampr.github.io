@@ -9,9 +9,9 @@ permalink: /cv/
 Computational Scientist | Energy Systems Modeling | AI for Subsurface Engineering
 
 📍 Delft, Netherlands  
-📧 your_email@email.com  
+📧 kiarash.mansourpour@gmail.com  
 🔗 [GitHub](https://github.com/Kiampr)  
-🔗 [LinkedIn](https://linkedin.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/kiarash-mansour-pour-ba5062ab/)  
 
 ---
 
