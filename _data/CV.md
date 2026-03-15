@@ -4,7 +4,7 @@ title: "CV"
 permalink: /cv/
 ---
 
-# Kiarash [Last Name]
+# Kiarash Mansour Pour
 
 Computational Scientist | Energy Systems Modeling | AI for Subsurface Engineering
 
@@ -23,19 +23,19 @@ Computational scientist with expertise in multiphysics modeling, reservoir simul
 
 # Education
 
-### PhD – [Your University]
+### PhD – Delft University of Technology
 Field: Energy / Reservoir Simulation  
-Year: XXXX
+Year: 2023
 
-Research focused on compositional reservoir simulation and multiphysics modeling for subsurface energy systems.
+Research focused on compositional reservoir simulation and  coupled multiphysics modeling for subsurface energy systems.
 
-### MSc – [University Name]
-Field: Engineering  
-Year: XXXX
+### MSc – Politecnico di Milano
+Field: Energy Engineering  
+Year: 2018
 
-### BSc – [University Name]
-Field: Engineering  
-Year: XXXX
+### BSc – [University of Zanjan]
+Field: Chemical Engineering  
+Year: 2015
 
 ---
 
