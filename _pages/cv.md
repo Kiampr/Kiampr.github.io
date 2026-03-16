@@ -9,22 +9,22 @@ redirect_from:
 
 ## Education
 
-**PhD – Delft University of Technology (TU Delft)**  
-Compositional reservoir simulation, multiphysics modeling, nonlinear solvers for subsurface energy systems.  
-*[Start Year] – [End Year]*
+**PhD in Reservoir Engineering – Delft University of Technology (TU Delft)**  
+Compositional reservoir simulation, multiphysics modeling of coupled wellbore and reservoir, nonlinear solvers for subsurface energy systems.  
+*2023*
 
-**MSc – [University Name]**  
-*[Field]*, [Year]
+**MSc – [Politecnico di Milano]**  
+*Energy Engineering*, 2015
 
-**BSc – [University Name]**  
-*[Field]*, [Year]
+**BSc – [University of Zanjan]**  
+*Chemical Engineering*, 2015
 
 ---
 
 ## Professional Experience
 
 **Reservoir Engineer (Consultancy)**  
-*[Company Name]*, Netherlands — *[Year] – Present*
+*Panterra*, Netherlands — *[2023] – 2025*
 - Digital twin development for subsurface systems
 - Reservoir modeling and engineering consulting
 - Applied AI/ML for subsurface simulation
