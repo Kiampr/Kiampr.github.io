@@ -24,13 +24,13 @@ Compositional reservoir simulation, multiphysics modeling of coupled wellbore an
 ## Professional Experience
 
 **Reservoir Engineer (Consultancy)**  
-*Panterra*, Netherlands — *[2023] – 2025*
+*Panterra*, Netherlands — *[2023 – 2025]*
 - Digital twin development for subsurface systems
 - Reservoir modeling and engineering consulting
 - Applied AI/ML for subsurface simulation
 
 **PhD Researcher**  
-*Delft University of Technology*, Delft — *[Start] – [End]*
+*Delft University of Technology*, Delft — *[2018 – 2023]*
 - Developed nonlinear solvers for compositional transport
 - Physics-informed neural networks (PINNs) for multiphase flow
 - CCUS simulation and subsurface energy systems
@@ -43,11 +43,6 @@ Compositional reservoir simulation, multiphysics modeling of coupled wellbore an
 **AI/ML:** PINNs, Generative AI, Machine Learning  
 **Simulation:** Reservoir Simulation, Multiphysics Modeling, Numerical Methods
 
----
-
-## Publications
-
-See full list on [Google Scholar](https://scholar.google.com/citations?hl=nl&user=5aMaXWgAAAAJ)
 
 ---
 
