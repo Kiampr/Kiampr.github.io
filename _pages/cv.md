@@ -1,117 +1,58 @@
 ---
-layout: page
+layout: archive
 title: "CV"
 permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
 ---
 
-# Kiarash [Last Name]
+## Education
 
-Computational Scientist | Energy Systems Modeling | AI for Subsurface Engineering
+**PhD – Delft University of Technology (TU Delft)**  
+Compositional reservoir simulation, multiphysics modeling, nonlinear solvers for subsurface energy systems.  
+*[Start Year] – [End Year]*
 
-📍 Delft, Netherlands  
-📧 your_email@email.com  
-🔗 [GitHub](https://github.com/Kiampr)  
-🔗 [LinkedIn](https://linkedin.com)  
+**MSc – [University Name]**  
+*[Field]*, [Year]
 
----
-
-# Profile
-
-Computational scientist with expertise in multiphysics modeling, reservoir simulation, and pipeline risk assessment. Experienced in developing nonlinear solvers, digital twins, and AI-accelerated models for subsurface energy systems and carbon capture, utilization, and storage (CCUS).
-
----
-
-# Education
-
-### PhD – [Your University]
-Field: Energy / Reservoir Simulation  
-Year: XXXX
-
-Research focused on compositional reservoir simulation and multiphysics modeling for subsurface energy systems.
-
-### MSc – [University Name]
-Field: Engineering  
-Year: XXXX
-
-### BSc – [University Name]
-Field: Engineering  
-Year: XXXX
+**BSc – [University Name]**  
+*[Field]*, [Year]
 
 ---
 
-# Professional Experience
+## Professional Experience
 
-### Researcher / Engineer  
-Company or Institution – Netherlands  
-Year – Present
+**Reservoir Engineer (Consultancy)**  
+*[Company Name]*, Netherlands — *[Year] – Present*
+- Digital twin development for subsurface systems
+- Reservoir modeling and engineering consulting
+- Applied AI/ML for subsurface simulation
 
-- Developed nonlinear solvers for CCUS simulations
-- Built coupled wellbore–reservoir multiphysics models
-- Designed computational tools for energy system analysis
-
-### Pipeline Risk Assessment Engineer  
-Company Name  
-
-- Developed tools for pipeline corrosion and fatigue analysis
-- Worked on digital twin approaches for pipeline monitoring
-- Implemented computational models for infrastructure risk
+**PhD Researcher**  
+*Delft University of Technology*, Delft — *[Start] – [End]*
+- Developed nonlinear solvers for compositional transport
+- Physics-informed neural networks (PINNs) for multiphase flow
+- CCUS simulation and subsurface energy systems
 
 ---
 
-# Research Interests
+## Skills
 
-- AI-accelerated scientific computing  
-- Multiphysics simulation  
-- Carbon Capture Utilization and Storage (CCUS)  
-- Pipeline integrity and risk assessment  
-- Digital twins for energy infrastructure  
+**Programming:** Python, C++, Git  
+**AI/ML:** PINNs, Generative AI, Machine Learning  
+**Simulation:** Reservoir Simulation, Multiphysics Modeling, Numerical Methods
 
 ---
 
-# Technical Skills
+## Publications
 
-### Programming
-Python, C++, Git
-
-### Modeling & Optimization
-Linear Programming  
-Mixed Integer Programming  
-Nonlinear Programming  
-Dynamic Programming  
-
-### Scientific Computing
-Reservoir Simulation  
-Multiphysics Modeling  
-Numerical Methods  
+See full list on [Google Scholar](https://scholar.google.com/citations?hl=nl&user=5aMaXWgAAAAJ)
 
 ---
 
-# Selected Projects
+## Links
 
-### Digital Twin for Pipeline Risk
-Software for corrosion, fatigue, and risk analysis of pipeline networks.
-
-### AI-Accelerated Subsurface Modeling
-Machine learning methods to accelerate multiphysics reservoir simulations.
-
-### Pipeline ILI Alignment Tool
-Software for aligning inspection data with pipeline geometry.
-
----
-
-# Publications
-
-(Add your papers here)
-
-Example:
-
-Author, K., et al.  
-**AI-Accelerated Multiphysics Modeling for Energy Transition**  
-Journal / Preprint, 2025
-
----
-
-# Links
-
-GitHub: https://github.com/Kiampr  
-LinkedIn: https://linkedin.com  
+- [GitHub](https://github.com/Kiampr)
+- [ResearchGate](https://www.researchgate.net/profile/Kiarash-Mansour-Pour)
+- [Google Scholar](https://scholar.google.com/citations?hl=nl&user=5aMaXWgAAAAJ)
