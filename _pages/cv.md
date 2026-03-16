@@ -13,10 +13,10 @@ redirect_from:
 Compositional reservoir simulation, multiphysics modeling of coupled wellbore and reservoir, nonlinear solvers for subsurface energy systems.  
 *2023*
 
-**MSc – [Politecnico di Milano]**  
+**MSc – Politecnico di Milano**  
 *Energy Engineering*, 2015
 
-**BSc – [University of Zanjan]**  
+**BSc – University of Zanjan**  
 *Chemical Engineering*, 2015
 
 ---
@@ -50,4 +50,3 @@ Compositional reservoir simulation, multiphysics modeling of coupled wellbore an
 
 - [GitHub](https://github.com/Kiampr)
 - [ResearchGate](https://www.researchgate.net/profile/Kiarash-Mansour-Pour)
-- [Google Scholar](https://scholar.google.com/citations?hl=nl&user=5aMaXWgAAAAJ)
