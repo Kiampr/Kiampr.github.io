@@ -98,19 +98,6 @@ Machine learning methods to accelerate multiphysics reservoir simulations.
 Software for aligning inspection data with pipeline geometry.
 
 ---
-
-# Publications
-
-(Add your papers here)
-
-Example:
-
-Author, K., et al.  
-**AI-Accelerated Multiphysics Modeling for Energy Transition**  
-Journal / Preprint, 2025
-
----
-
 # Links
 
 GitHub: https://github.com/Kiampr  
