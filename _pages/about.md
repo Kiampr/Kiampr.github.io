@@ -2,14 +2,30 @@
 permalink: /
 title: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
+Hi! I'm **Kiarash**, a geo-computational scientist based in Delft, Netherlands 🇳🇱
 
-Hi there! My name is Kiarash. I hold a Ph.D. from TU Delft (Delft University of Technology), where I specialized in mathematical modeling of coupled wellbore and reservoir systems in the subsurface and developed nonlinear solvers for compositional transport. During my Ph.D., I also explored physics-informed neural networks (PINNs) and AI-based approaches for simulating multiphase flow and transport in complex geological systems.
+I hold a **PhD from TU Delft**, where I built mathematical models of coupled wellbore-reservoir systems and developed nonlinear solvers for compositional transport in the subsurface. I also worked with **physics-informed neural networks (PINNs)** to simulate multiphase flow in complex geological systems.
 
-After completing my Ph.D., I have been working as a reservoir engineer in consultancy, focusing on digital twin development and applying my expertise in subsurface modeling to real-world engineering problems. 
+After my PhD, I work as a **reservoir engineer in consultancy**, building digital twins and applying subsurface modeling to real engineering problems.
 
-Currently, I am also concentrating on AI and machine learning applications and actively learning about Generative AI to explore innovative solutions in engineering and subsurface systems.
+🔭 **Currently exploring:** Generative AI and LLM applications for scientific computing and energy systems.
+
+---
+
+### Research Interests
+- 🧮 Multiphysics & reservoir simulation
+- 🤖 AI/ML for subsurface engineering
+- 🌍 Carbon Capture & Storage (CCUS)
+- 🔗 Digital twins for energy infrastructure
+
+---
+
+### Latest
+- 🎓 PhD completed at TU Delft
+- 💼 Working in reservoir engineering consultancy
+- 📖 Learning Generative AI for engineering applications
