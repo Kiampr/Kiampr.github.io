@@ -28,4 +28,4 @@ After my PhD, I work as a **reservoir engineer in consultancy**, building digita
 ### Latest
 - 🎓 PhD completed at TU Delft
 - 💼 Working in reservoir engineering consultancy
-- 📖 Learning Generative AI for engineering applications
+- 📖 Learning and applying Generative AI for engineering applications
