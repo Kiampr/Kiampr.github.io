@@ -5,7 +5,7 @@
 # prevent it from being included in the site.
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://www.researchgate.net/profile/Kiarash-Mansour-Pour?ev=hdr_xprf
   - title: "Talks"
     url: /talks/
   - title: "Teaching"
