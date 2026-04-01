@@ -40,7 +40,7 @@ After my PhD, I work as a **reservoir engineer in consultancy**, building digita
     <div style="font-size: 2rem; margin-bottom: 0.5rem;">🧠</div>
     <h4 style="margin: 0 0 0.4rem;">PINNs for Multiphase Flow</h4>
     <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Physics-informed neural networks for simulating multiphase flow in complex geological systems, developed during PhD at TU Delft.</p>
-    <a href="https://10.1615/JMachLearnModelComput.2023048866" target="_blank" rel="noopener noreferrer" style="font-size: 0.82rem; background: #2a7ae2; color: white; padding: 0.3rem 0.7rem; border-radius: 5px; text-decoration: none;">📄 Paper</a>
+    <a href="https://www.dl.begellhouse.com/journals/558048804a15188a,24f8785e4156a0df,157258503daf8310.html" style="font-size: 0.82rem; background: #2a7ae2; color: white; padding: 0.3rem 0.7rem; border-radius: 5px; text-decoration: none;">📄 Paper</a>
   </div>
 
   <div style="border: 1px solid #ddd; border-radius: 10px; padding: 1.2rem; background: #f9f9f9; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
