@@ -6,9 +6,5 @@
 main:
   - title: "Publications"
     url: https://www.researchgate.net/profile/Kiarash-Mansour-Pour?ev=hdr_xprf
-  - title: "Talks"
-    url: /talks/
-  - title: "Teaching"
-    url: /teaching/
   - title: "CV"
     url: /cv/
