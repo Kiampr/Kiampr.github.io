@@ -1,13 +1,20 @@
 ---
-title: "Paper Title Number 1"
-collection:  geoenergy science and engineering
+title: "Nonlinear solver based on trust region approximation for CO₂ utilization and storage in subsurface reservoir"
+collection: publications
 category: manuscripts
-permalink: /publication/Nonlinear solver
-excerpt: 'This paper is about developping a trust-region nonlinear solver for compositional simulations '
-date: 2023-6-01
-venue: 'Journal 1'
+permalink: /publications/2023-nonlinear-solver-co2/
+excerpt: 'Trust-region globalization strategy for Newton solvers applied to compositional CO₂ storage simulation, improving convergence robustness across a wide range of injection scenarios.'
+date: 2023-06-01
+venue: 'Geoenergy Science and Technology'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2949891023002853'
-citation: 'Kiarash Mansour Pour, Kiarash. (2023). &quot;Nonlinear solver based on trust region approximation for CO2 utilization and storage in subsurface reservoir.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'K. Mansour Pour, D.V. Voskov, D.F. Bruhn (2023). "Nonlinear solver based on trust region approximation for CO₂ utilization and storage in subsurface reservoir." <i>Geoenergy Science and Technology</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Compositional reservoir simulation for CO₂ storage involves highly nonlinear coupled PDEs that challenge standard Newton–Raphson solvers, especially near phase boundaries. This work introduces a **trust-region globalization strategy** within the operator-based linearisation (OBL) framework, providing robust convergence across a wide range of CO₂ injection scenarios and reservoir heterogeneities.
+
+**Key contributions:**
+- Trust-region modification of Newton iterations for compositional multiphase flow
+- Application to CO₂ injection in saline aquifers and depleted reservoirs
+- Demonstrated reduction in nonlinear iteration counts and improved robustness in challenging convergence regimes
+
+[Read paper →](https://www.sciencedirect.com/science/article/pii/S2949891023002853)

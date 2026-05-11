@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Kiarash's Homepage"
 title_separator          : "-"
 name                     : &name "Kiarash Mansour Pour, PhD"
-description              : &description "personal description"
+description              : &description "PhD in scientific ML and reservoir simulation — seeking roles in energy AI, scientific computing, and climate technology"
 url                      : https://kiampr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Kiampr.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "menature.jpg"
   name             : "Kiarash Mansour Pour"
   pronouns         :  "He/Him"  
-  bio              : "Geo-computational scientist"
-  location         : "Netherlands"
-  employer         : "Delft University of Technology"
+  bio              : "PhD · Scientific ML · Reservoir Simulation · Energy AI"
+  location         : "Delft, Netherlands"
+  employer         : ""
   uri              : # URL
   email            : "Kiarash.mansourpour@gmail.com" 
 
@@ -40,7 +40,7 @@ author:
 
 
   # Social media
-  linkedin         : https://www.linkedin.com/in/kiarash-mansour-pour-ba5062ab/
+  linkedin         : kiarash-mansour-pour-ba5062ab
 
 
 # Publication Category - The following the list of publication categories and their headings

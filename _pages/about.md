@@ -7,54 +7,80 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Kiarash**, a geo-computational scientist based in Delft, Netherlands 🇳🇱
+Hi! I'm **Kiarash**, a geo-computational scientist based in Delft, Netherlands.
 
-I hold a **PhD from TU Delft**, where I built mathematical models of coupled wellbore-reservoir systems and developed nonlinear solvers for compositional transport in the subsurface. I also worked with **physics-informed neural networks (PINNs)** to simulate multiphase flow in complex geological systems.
+I hold a **PhD from TU Delft**, where I built mathematical models of coupled wellbore–reservoir systems, developed nonlinear solvers for compositional transport, and trained physics-informed neural networks (PINNs) for multiphase flow in complex geological systems. My work sits at the intersection of **scientific ML, numerical methods, and HPC** applied to subsurface energy problems — CO₂ storage, geothermal systems, and reservoir simulation.
 
-After my PhD, I work as a **reservoir engineer in consultancy**, building digital twins and applying subsurface modeling to real engineering problems.
-
-🔭 **Currently exploring:** Generative AI and LLM applications for scientific computing and energy systems.
+I'm currently open to new roles in **energy AI, scientific computing, ML for physical simulation, and climate technology**.
 
 ---
 
-### Research Interests
-- 🧮 Multiphysics & reservoir simulation
-- 🤖 AI/ML for subsurface engineering
-- 🌍 Carbon Capture & Storage (CCUS)
-- 🔗 Digital twins for energy infrastructure
+### Research Highlights
+
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/images/fno-speedup.svg" alt="FNO surrogate vs classical PDE solver — 10x speedup" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
+</div>
+
+Fourier Neural Operator (FNO) surrogates trained on geophysical simulation data achieve **~10× speedup** over classical PDE solvers while preserving physical accuracy — enabling real-time decision support for CCUS and reservoir management. [\[Geoenergy Science and Technology, 2023\]](/publications/2023-nonlinear-solver-co2/)
 
 ---
 
-### Latest
-- 🎓 PhD completed at TU Delft
-- 💼 Working in reservoir engineering consultancy
-- 📖 Learning and applying Generative AI for engineering applications
+### Research Areas
 
----
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0;">
 
-### Projects
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin-top: 1rem;">
-
-  <div style="border: 1px solid #ddd; border-radius: 10px; padding: 1.2rem; background: #f9f9f9; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
-    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🧠</div>
-    <h4 style="margin: 0 0 0.4rem;">PINNs for Multiphase Flow</h4>
-    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Physics-informed neural networks for simulating multiphase flow in complex geological systems, developed during PhD at TU Delft.</p>
-    <a href="https://www.dl.begellhouse.com/journals/558048804a15188a,24f8785e4156a0df,157258503daf8310.html" style="font-size: 0.82rem; background: #2a7ae2; color: white; padding: 0.3rem 0.7rem; border-radius: 5px; text-decoration: none;">📄 Paper</a>
+  <div style="border-left: 4px solid #3d5a80; padding: 0.8rem 1rem; background: #f8f9fa; border-radius: 0 6px 6px 0;">
+    <strong>Scientific ML</strong><br>
+    <span style="font-size:0.9rem; color:#555;">Neural Operators · PINNs · Surrogate Modelling · Reduced-Order Models</span>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 10px; padding: 1.2rem; background: #f9f9f9; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
-    <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
-    <h4 style="margin: 0 0 0.4rem;">Nonlinear Solvers for Compositional Transport</h4>
-    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Mathematical models and nonlinear solvers for coupled flow and compositional transport in subsurface energy systems.</p>
-    <a href="https://www.sciencedirect.com/science/article/pii/S2949891023002853?via%3Dihub" target="_blank" rel="noopener noreferrer" style="font-size: 0.82rem; background: #2a7ae2; color: white; padding: 0.3rem 0.7rem; border-radius: 5px; text-decoration: none;">📄 Paper</a>
+  <div style="border-left: 4px solid #3d5a80; padding: 0.8rem 1rem; background: #f8f9fa; border-radius: 0 6px 6px 0;">
+    <strong>Numerical Methods</strong><br>
+    <span style="font-size:0.9rem; color:#555;">Nonlinear Solvers · FD/FV Methods · Coupled PDE Systems · HPC</span>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 10px; padding: 1.2rem; background: #f9f9f9; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
-    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌍</div>
-    <h4 style="margin: 0 0 0.4rem;">Digital Twin for Coupled Subsurface Systems</h4>
-    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Digital twin development for subsurface reservoir systems, combining reservoir modeling and AI/ML for real-time engineering decisions.</p>
-    <a href="https://www.sciencedirect.com/science/article/pii/S2949891023005134?via%3Dihub" target="_blank" rel="noopener noreferrer" style="font-size: 0.82rem; background: #2a7ae2; color: white; padding: 0.3rem 0.7rem; border-radius: 5px; text-decoration: none;">📄 Paper</a>
+  <div style="border-left: 4px solid #3d5a80; padding: 0.8rem 1rem; background: #f8f9fa; border-radius: 0 6px 6px 0;">
+    <strong>Energy Systems</strong><br>
+    <span style="font-size:0.9rem; color:#555;">CO₂ Storage (CCUS) · Geothermal · Reservoir Simulation · Digital Twins</span>
   </div>
 
 </div>
+
+---
+
+### Featured Projects
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin-top: 1rem;">
+
+  <div style="border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">⚡</div>
+    <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">Neural Operator Surrogates</h4>
+    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Fourier Neural Operators for spatio-temporal geophysical simulation — 10× faster than classical solvers with preserved physical fidelity.</p>
+    <a href="/portfolio/fno-surrogate/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
+  </div>
+
+  <div style="border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🧠</div>
+    <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">PINNs for CO₂ Storage</h4>
+    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Physics-informed neural networks embedding PDE conservation laws into training, enabling accurate simulation of CO₂ plume migration in subsurface reservoirs.</p>
+    <a href="/portfolio/pinns-co2/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
+  </div>
+
+  <div style="border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🌍</div>
+    <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">Coupled Wellbore–Reservoir Model</h4>
+    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Digital twin combining wellbore flow dynamics with reservoir simulation for real-time engineering decisions in CO₂ injection and geothermal operations.</p>
+    <a href="/portfolio/wellbore-reservoir/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
+  </div>
+
+</div>
+
+---
+
+### Selected Publications
+
+- **Mansour Pour, Voskov, Bruhn** (2023). [Coupled modelling of well and reservoir for geo-energy application](https://www.sciencedirect.com/science/article/pii/S2949891023005134). *Geoenergy Science and Technology.*
+- **Mansour Pour, Voskov, Bruhn** (2023). [Nonlinear solver based on trust region approximation for CO₂ storage](https://www.sciencedirect.com/science/article/pii/S2949891023002853). *Geoenergy Science and Technology.*
+- **Mansour Pour, Voskov** (2023). [Physics-informed neural networks for CO₂ utilization and storage](https://www.dl.begellhouse.com/journals/558048804a15188a,24f8785e4156a0df,157258503daf8310.html). *Journal of Machine Learning for Modeling and Computing.*
+
+[→ All publications](/publications/)

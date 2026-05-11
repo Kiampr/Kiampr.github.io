@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="640" height="360" fill="#ffffff" rx="10" stroke="#e9ecef" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="320" y="30" font-size="14" font-weight="700" fill="#212529" text-anchor="middle">Coupled Wellbore–Reservoir Digital Twin</text>
+  <text x="320" y="48" font-size="11" fill="#868e96" text-anchor="middle">Bidirectional multiphysics coupling for real-time geo-energy simulation</text>
+
+  <!-- ===== WELLBORE ===== -->
+  <!-- Wellbore outer casing -->
+  <rect x="55" y="70" width="160" height="240" fill="#e3f2fd" stroke="#3d5a80" stroke-width="2" rx="6"/>
+  <text x="135" y="93" font-size="13" font-weight="700" fill="#3d5a80" text-anchor="middle">Wellbore</text>
+
+  <!-- Wellbore inner annulus -->
+  <rect x="85" y="105" width="100" height="185" fill="#bbdefb" stroke="#3d5a80" stroke-width="1" rx="4"/>
+
+  <!-- Flow arrows inside wellbore (upward) -->
+  <line x1="135" y1="270" x2="135" y2="195" stroke="#1565c0" stroke-width="2"/>
+  <line x1="125" y1="270" x2="125" y2="215" stroke="#1565c0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="145" y1="270" x2="145" y2="215" stroke="#1565c0" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="130,195 135,183 140,195" fill="#1565c0"/>
+  <polygon points="120,215 125,203 130,215" fill="#1565c0" opacity="0.6"/>
+  <polygon points="140,215 145,203 150,215" fill="#1565c0" opacity="0.6"/>
+
+  <!-- Wellbore labels -->
+  <text x="135" y="155" font-size="10" fill="#1565c0" text-anchor="middle">p(z,t)</text>
+  <text x="135" y="170" font-size="10" fill="#1565c0" text-anchor="middle">T(z,t)</text>
+  <text x="135" y="185" font-size="10" fill="#1565c0" text-anchor="middle">q(z,t)</text>
+
+  <!-- Perforations at bottom of wellbore -->
+  <line x1="85" y1="282" x2="70" y2="282" stroke="#37474f" stroke-width="2" stroke-dasharray="3,2"/>
+  <line x1="85" y1="270" x2="70" y2="270" stroke="#37474f" stroke-width="2" stroke-dasharray="3,2"/>
+  <line x1="85" y1="258" x2="70" y2="258" stroke="#37474f" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="62" y="275" font-size="9" fill="#546e7a" text-anchor="end">perfs</text>
+
+  <!-- ===== COUPLING ARROWS ===== -->
+  <!-- Arrow: reservoir → wellbore (pressure BC) -->
+  <line x1="310" y1="155" x2="220" y2="155" stroke="#e67e22" stroke-width="2.5"/>
+  <polygon points="225,150 215,155 225,160" fill="#e67e22"/>
+  <rect x="225" y="140" width="80" height="30" fill="#fff8e1" stroke="#f39c12" stroke-width="1" rx="4"/>
+  <text x="265" y="157" font-size="10" fill="#e67e22" text-anchor="middle" font-weight="700">p_res → p_wf</text>
+
+  <!-- Arrow: wellbore → reservoir (flow rates) -->
+  <line x1="220" y1="210" x2="310" y2="210" stroke="#2e7d32" stroke-width="2.5"/>
+  <polygon points="305,205 315,210 305,215" fill="#2e7d32"/>
+  <rect x="227" y="195" width="80" height="30" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" rx="4"/>
+  <text x="267" y="212" font-size="10" fill="#2e7d32" text-anchor="middle" font-weight="700">q_inj → src</text>
+
+  <!-- Arrow: reservoir → wellbore (composition) -->
+  <line x1="310" y1="255" x2="220" y2="255" stroke="#7b1fa2" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <polygon points="225,250 215,255 225,260" fill="#7b1fa2"/>
+  <rect x="225" y="240" width="80" height="30" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1" rx="4"/>
+  <text x="265" y="257" font-size="10" fill="#7b1fa2" text-anchor="middle" font-weight="700">z_i (composition)</text>
+
+  <!-- ===== RESERVOIR ===== -->
+  <!-- Reservoir block -->
+  <rect x="315" y="70" width="275" height="240" fill="#fff3e0" stroke="#e65100" stroke-width="2" rx="6"/>
+  <text x="452" y="93" font-size="13" font-weight="700" fill="#e65100" text-anchor="middle">Reservoir</text>
+
+  <!-- Layer 1 - top -->
+  <rect x="330" y="105" width="245" height="60" fill="#ffcc80" opacity="0.6" rx="3"/>
+  <text x="452" y="133" font-size="10" fill="#bf360c" text-anchor="middle">Layer 1 — k₁, φ₁</text>
+  <text x="452" y="148" font-size="10" fill="#bf360c" text-anchor="middle">S_w, S_o, S_g</text>
+
+  <!-- Layer 2 - middle (target zone) -->
+  <rect x="330" y="173" width="245" height="65" fill="#ff8a65" opacity="0.4" rx="3" stroke="#bf360c" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="452" y="200" font-size="10" fill="#bf360c" text-anchor="middle">Layer 2 — CO₂ injection zone</text>
+  <text x="452" y="215" font-size="9" fill="#bf360c" text-anchor="middle">p(x,y,z,t),  T(x,y,z,t)</text>
+
+  <!-- Layer 3 - bottom -->
+  <rect x="330" y="246" width="245" height="50" fill="#ffcc80" opacity="0.6" rx="3"/>
+  <text x="452" y="275" font-size="10" fill="#bf360c" text-anchor="middle">Layer 3 — k₃, φ₃</text>
+
+  <!-- Reservoir equations -->
+  <text x="452" y="320" font-size="9" fill="#795548" text-anchor="middle" font-style="italic">∂(φρS)/∂t + ∇·(ρu) = ρq</text>
+
+  <!-- Coupling label -->
+  <text x="265" y="305" font-size="10" fill="#546e7a" text-anchor="middle" font-weight="600">Iterative coupling</text>
+  <text x="265" y="318" font-size="10" fill="#546e7a" text-anchor="middle">(operator splitting)</text>
+
+  <!-- Footer -->
+  <text x="320" y="342" font-size="10" fill="#adb5bd" text-anchor="middle" font-style="italic">Mansour Pour et al., Geoenergy Science and Technology, 2023</text>
+</svg>

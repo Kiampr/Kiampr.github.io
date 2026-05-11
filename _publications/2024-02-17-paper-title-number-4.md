@@ -1,13 +1,25 @@
 ---
-title: "Paper Title Number 4"
+title: "Application of deep neural networks to the operator space of nonlinear PDE for physics-based proxy modelling"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publications/2023-fno-operator-space/
+excerpt: 'Fourier Neural Operators applied to the operator space of nonlinear PDEs for fast physics-consistent proxy models with ~10× speedup over classical reservoir simulators.'
+date: 2023-03-28
+venue: 'SPE Reservoir Simulation Conference'
+paperurl: 'https://doi.org/10.2118/212217-MS'
+citation: 'G. Hadjisotiriou, K. Mansour Pour, D.V. Voskov (2023). "Application of deep neural networks to the operator space of nonlinear PDE for physics-based proxy modelling." <i>SPE Reservoir Simulation Conference</i>, Houston, USA.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This work applies **deep neural networks to learn the operator space** of nonlinear PDEs governing multiphase flow, producing fast physics-based proxy models that generalise across reservoir configurations and boundary conditions. Operating in operator space yields more compact and transferable surrogate representations than solution-space approaches.
+
+**Key contributions:**
+- Neural operator learning in OBL (operator-based linearisation) space
+- Application to multiphase compositional transport simulation
+- ~10× speedup over classical solvers with preserved physical accuracy
+- Presented at SPE Reservoir Simulation Conference 2023, Houston
+
+<div style="text-align:center; margin: 1.5rem 0;">
+  <img src="/images/fno-speedup.svg" alt="FNO surrogate speedup vs classical solver" style="max-width:100%; border-radius:8px;">
+</div>
+
+[Read paper →](https://doi.org/10.2118/212217-MS)

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" width="620" height="330" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="620" height="330" fill="#ffffff" rx="10" stroke="#e9ecef" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="310" y="30" font-size="14" font-weight="700" fill="#212529" text-anchor="middle">Physics-Informed Neural Network (PINN) Architecture</text>
+  <text x="310" y="48" font-size="11" fill="#868e96" text-anchor="middle">Embedding PDE conservation laws directly into the neural network training objective</text>
+
+  <!-- === INPUT LAYER === -->
+  <!-- x node -->
+  <circle cx="60" cy="130" r="18" fill="#e3f2fd" stroke="#3d5a80" stroke-width="2"/>
+  <text x="60" y="134" font-size="13" fill="#3d5a80" text-anchor="middle" font-weight="700">x</text>
+  <!-- y node -->
+  <circle cx="60" cy="175" r="18" fill="#e3f2fd" stroke="#3d5a80" stroke-width="2"/>
+  <text x="60" y="179" font-size="13" fill="#3d5a80" text-anchor="middle" font-weight="700">y</text>
+  <!-- t node -->
+  <circle cx="60" cy="220" r="18" fill="#e3f2fd" stroke="#3d5a80" stroke-width="2"/>
+  <text x="60" y="224" font-size="13" fill="#3d5a80" text-anchor="middle" font-weight="700">t</text>
+  <!-- Input label -->
+  <text x="60" y="258" font-size="10" fill="#868e96" text-anchor="middle">Inputs</text>
+  <text x="60" y="270" font-size="10" fill="#868e96" text-anchor="middle">(coords)</text>
+
+  <!-- === HIDDEN LAYER 1 === -->
+  <circle cx="180" cy="110" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="180" cy="150" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="180" cy="190" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="180" cy="230" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="180" y="258" font-size="10" fill="#868e96" text-anchor="middle">Hidden</text>
+  <text x="180" y="270" font-size="10" fill="#868e96" text-anchor="middle">layer 1</text>
+
+  <!-- === HIDDEN LAYER 2 === -->
+  <circle cx="300" cy="110" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="300" cy="150" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="300" cy="190" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="300" cy="230" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="300" y="258" font-size="10" fill="#868e96" text-anchor="middle">Hidden</text>
+  <text x="300" y="270" font-size="10" fill="#868e96" text-anchor="middle">layer 2</text>
+
+  <!-- === HIDDEN LAYER 3 === -->
+  <circle cx="420" cy="110" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="420" cy="150" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="420" cy="190" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="420" cy="230" r="15" fill="#fff3e0" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="420" y="258" font-size="10" fill="#868e96" text-anchor="middle">Hidden</text>
+  <text x="420" y="270" font-size="10" fill="#868e96" text-anchor="middle">layer 3</text>
+
+  <!-- === OUTPUT LAYER === -->
+  <circle cx="540" cy="150" r="18" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="540" y="154" font-size="12" fill="#2e7d32" text-anchor="middle" font-weight="700">p</text>
+  <circle cx="540" cy="200" r="18" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="540" y="204" font-size="12" fill="#2e7d32" text-anchor="middle" font-weight="700">S</text>
+  <text x="540" y="235" font-size="10" fill="#868e96" text-anchor="middle">Outputs</text>
+  <text x="540" y="247" font-size="10" fill="#868e96" text-anchor="middle">(p, S)</text>
+
+  <!-- Connections: input → h1 (representative subset) -->
+  <line x1="78" y1="130" x2="165" y2="115" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="78" y1="130" x2="165" y2="150" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="78" y1="175" x2="165" y2="150" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="78" y1="175" x2="165" y2="190" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="78" y1="220" x2="165" y2="190" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="78" y1="220" x2="165" y2="230" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+
+  <!-- h1 → h2 -->
+  <line x1="195" y1="110" x2="285" y2="110" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="195" y1="110" x2="285" y2="150" stroke="#cfd8dc" stroke-width="1" opacity="0.5"/>
+  <line x1="195" y1="150" x2="285" y2="150" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="195" y1="150" x2="285" y2="190" stroke="#cfd8dc" stroke-width="1" opacity="0.5"/>
+  <line x1="195" y1="190" x2="285" y2="190" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="195" y1="230" x2="285" y2="230" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+
+  <!-- h2 → h3 -->
+  <line x1="315" y1="110" x2="405" y2="110" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="315" y1="150" x2="405" y2="150" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="315" y1="150" x2="405" y2="110" stroke="#cfd8dc" stroke-width="1" opacity="0.5"/>
+  <line x1="315" y1="190" x2="405" y2="190" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="315" y1="230" x2="405" y2="230" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+
+  <!-- h3 → output -->
+  <line x1="435" y1="110" x2="522" y2="150" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="435" y1="150" x2="522" y2="150" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="435" y1="190" x2="522" y2="200" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+  <line x1="435" y1="230" x2="522" y2="200" stroke="#cfd8dc" stroke-width="1" opacity="0.7"/>
+
+  <!-- Physics Loss box -->
+  <rect x="50" y="285" width="230" height="32" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" rx="6"/>
+  <text x="165" y="303" font-size="11" fill="#c62828" text-anchor="middle" font-weight="700">Physics Loss: ∂S/∂t + ∇·(uS) = q</text>
+
+  <!-- Data Loss box -->
+  <rect x="310" y="285" width="190" height="32" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" rx="6"/>
+  <text x="405" y="303" font-size="11" fill="#2e7d32" text-anchor="middle" font-weight="700">Data Loss: |û − u_obs|²</text>
+
+  <!-- Total loss arrow from losses to network -->
+  <line x1="165" y1="284" x2="300" y2="255" stroke="#c62828" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="405" y1="284" x2="420" y2="255" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Combined loss label -->
+  <text x="310" y="322" font-size="10" fill="#868e96" text-anchor="middle" font-style="italic">Total loss = λ · Physics loss + Data loss → backpropagation</text>
+</svg>

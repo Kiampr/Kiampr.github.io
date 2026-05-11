@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="640" height="380" fill="#ffffff" rx="10" stroke="#e9ecef" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="320" y="30" font-size="14" font-weight="700" fill="#212529" text-anchor="middle">CO₂ Geological Storage: Subsurface Cross-Section</text>
+  <text x="320" y="47" font-size="11" fill="#868e96" text-anchor="middle">Numerical simulation of CO₂ plume migration in a saline aquifer</text>
+
+  <!-- Surface layer -->
+  <rect x="30" y="60" width="570" height="18" fill="#8bc34a" opacity="0.75" rx="2"/>
+  <text x="40" y="73" font-size="10" fill="#33691e" font-weight="600">Ground Surface</text>
+
+  <!-- Overburden -->
+  <rect x="30" y="78" width="570" height="75" fill="#d7ccc8"/>
+  <text x="40" y="120" font-size="11" fill="#6d4c41" font-style="italic">Overburden (Sedimentary Rock)</text>
+
+  <!-- Caprock -->
+  <rect x="30" y="153" width="570" height="22" fill="#546e7a"/>
+  <text x="40" y="169" font-size="11" fill="#eceff1" font-weight="700">Sealing Caprock (Impermeable)</text>
+
+  <!-- Reservoir -->
+  <rect x="30" y="175" width="570" height="115" fill="#ffe0b2" opacity="0.85"/>
+  <text x="40" y="270" font-size="11" fill="#bf360c" font-style="italic" opacity="0.7">Porous Reservoir Rock (Sandstone / Aquifer)</text>
+
+  <!-- CO2 plume — outer halo -->
+  <ellipse cx="390" cy="240" rx="155" ry="42" fill="#ef5350" opacity="0.18"/>
+  <!-- Mid plume -->
+  <ellipse cx="375" cy="240" rx="95" ry="30" fill="#ef5350" opacity="0.30"/>
+  <!-- Inner plume (denser) -->
+  <ellipse cx="358" cy="240" rx="48" ry="18" fill="#e53935" opacity="0.55"/>
+  <!-- Plume label -->
+  <text x="450" y="225" font-size="11" fill="#b71c1c" font-weight="700">CO₂ plume</text>
+  <line x1="450" y1="228" x2="430" y2="237" stroke="#b71c1c" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Basement -->
+  <rect x="30" y="290" width="570" height="40" fill="#37474f"/>
+  <text x="40" y="315" font-size="11" fill="#b0bec5" font-style="italic">Basement Rock (Impermeable)</text>
+
+  <!-- Injection well shaft -->
+  <rect x="296" y="60" width="8" height="188" fill="#212529"/>
+  <!-- Well perforations at reservoir -->
+  <rect x="290" y="240" width="20" height="10" fill="#212529" rx="2"/>
+  <!-- Wellhead symbol -->
+  <rect x="286" y="55" width="28" height="10" fill="#37474f" rx="2"/>
+  <text x="320" y="64" font-size="10" fill="#495057" font-weight="600">Injection Well</text>
+
+  <!-- Injection flow arrow -->
+  <line x1="300" y1="38" x2="300" y2="55" stroke="#3d5a80" stroke-width="2"/>
+  <polygon points="295,50 305,50 300,60" fill="#3d5a80"/>
+  <text x="310" y="45" font-size="10" fill="#3d5a80" font-weight="600">CO₂ →</text>
+
+  <!-- Depth scale -->
+  <line x1="615" y1="60" x2="615" y2="290" stroke="#cfd8dc" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="610" y1="60" x2="620" y2="60" stroke="#cfd8dc" stroke-width="1"/>
+  <line x1="610" y1="290" x2="620" y2="290" stroke="#cfd8dc" stroke-width="1"/>
+  <text x="628" y="180" font-size="10" fill="#adb5bd" text-anchor="middle" transform="rotate(90,628,180)">≈ 1–3 km depth</text>
+
+  <!-- Legend -->
+  <rect x="40" y="343" width="12" height="12" fill="#ef5350" opacity="0.55" rx="2"/>
+  <text x="57" y="354" font-size="10" fill="#495057">Supercritical CO₂</text>
+  <rect x="160" y="343" width="12" height="12" fill="#ffe0b2" opacity="0.85" rx="2" stroke="#e0a060" stroke-width="1"/>
+  <text x="177" y="354" font-size="10" fill="#495057">Brine-saturated rock</text>
+  <rect x="305" y="343" width="12" height="12" fill="#546e7a" rx="2"/>
+  <text x="322" y="354" font-size="10" fill="#495057">Caprock</text>
+
+  <text x="320" y="373" font-size="10" fill="#adb5bd" text-anchor="middle" font-style="italic">Mansour Pour et al., Geoenergy Science and Technology, 2023</text>
+</svg>

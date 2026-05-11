@@ -1,14 +1,25 @@
 ---
-title: "Paper Title Number 3"
+title: "Physics-informed neural networks based on sequential training for CO₂ utilization and storage in subsurface reservoir"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publications/2023-pinns-co2/
+excerpt: 'Sequential training strategy for PINNs applied to compositional CO₂ storage simulation, embedding PDE conservation laws into the training loss for physics-consistent predictions.'
+date: 2023-04-01
+venue: 'Journal of Machine Learning for Modeling and Computing'
+paperurl: 'https://www.dl.begellhouse.com/journals/558048804a15188a,24f8785e4156a0df,157258503daf8310.html'
+citation: 'K. Mansour Pour, D.V. Voskov (2023). "Physics-informed neural networks based on sequential training for CO₂ utilization and storage in subsurface reservoir." <i>Journal of Machine Learning for Modeling and Computing</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This work develops a **sequential (curriculum) training strategy** for physics-informed neural networks that progressively expands the spatio-temporal training domain, dramatically improving convergence stability and accuracy for CO₂ injection scenarios with sharp saturation fronts.
+
+**Key contributions:**
+- Sequential training strategy for PINNs in compositional transport problems
+- Physics loss formulation for two-phase, two-component CO₂–brine system
+- Convergence to physically accurate solutions for challenging heterogeneous reservoirs
+- Benchmarked against classical finite-volume solver reference solutions
+
+<div style="text-align:center; margin: 1.5rem 0;">
+  <img src="/images/pinns-diagram.svg" alt="PINN architecture for CO2 storage simulation" style="max-width:100%; border-radius:8px;">
+</div>
+
+[Read paper →](https://www.dl.begellhouse.com/journals/558048804a15188a,24f8785e4156a0df,157258503daf8310.html)
