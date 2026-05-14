@@ -8,7 +8,7 @@ tags:
   - writing
 ---
 
-This is a journal — a small corner of my site where I plan to write about whatever is on my mind. Not research, not work. Just ideas: things I am reading, philosophical questions I find myself returning to, observations about the practice of science, books and people that have shaped how I think.
+This is a small corner of my site for whatever happens to be on my mind. Not research, not work. Just notes: things I am reading, philosophical questions I find myself returning to, observations about the practice of science, books and people that have shaped how I think.
 
 I do not expect to post on a schedule. Some weeks there will be something to say, and other weeks there will not. The bar for posting will be low — well-written notes are still useful, even if incomplete.
 
