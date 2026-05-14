@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <!-- Two-phase region shading -->
+    <linearGradient id="twoPhase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#fbe9d2" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#f6c280" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="440" fill="#ffffff" rx="10" stroke="#e9ecef" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="360" y="32" font-size="14" font-weight="700" fill="#212529" text-anchor="middle">
+    Compositional Phase Equilibrium — Ternary Diagram
+  </text>
+  <text x="360" y="50" font-size="11" fill="#868e96" text-anchor="middle">
+    Three-component mixture (CO₂ – C₁ – H₂O); nonlinear solver iterates within the two-phase envelope
+  </text>
+
+  <!-- ============================== -->
+  <!-- Triangle vertices               -->
+  <!--   Top:    (370, 90)             -->
+  <!--   BL:     (220, 350)            -->
+  <!--   BR:     (520, 350)            -->
+  <!-- ============================== -->
+
+  <!-- Outer triangle (single-phase boundary frame) -->
+  <polygon points="370,90 220,350 520,350" fill="#fafafa" stroke="#495057" stroke-width="1.5"/>
+
+  <!-- Internal grid lines (10% increments) -->
+  <g stroke="#dee2e6" stroke-width="0.8" opacity="0.7">
+    <!-- Lines parallel to bottom (constant CO2) -->
+    <line x1="355" y1="116" x2="385" y2="116"/>
+    <line x1="340" y1="142" x2="400" y2="142"/>
+    <line x1="325" y1="168" x2="415" y2="168"/>
+    <line x1="310" y1="194" x2="430" y2="194"/>
+    <line x1="295" y1="220" x2="445" y2="220"/>
+    <line x1="280" y1="246" x2="460" y2="246"/>
+    <line x1="265" y1="272" x2="475" y2="272"/>
+    <line x1="250" y1="298" x2="490" y2="298"/>
+    <line x1="235" y1="324" x2="505" y2="324"/>
+    <!-- Lines parallel to left edge (constant H2O) -->
+    <line x1="385" y1="116" x2="535" y2="324"/>
+    <line x1="400" y1="142" x2="520" y2="298"/>
+    <line x1="415" y1="168" x2="505" y2="272"/>
+    <line x1="430" y1="194" x2="490" y2="246"/>
+    <line x1="445" y1="220" x2="475" y2="220"/>
+    <!-- Lines parallel to right edge (constant C1) -->
+    <line x1="355" y1="116" x2="205" y2="324"/>
+    <line x1="340" y1="142" x2="220" y2="298"/>
+    <line x1="325" y1="168" x2="235" y2="272"/>
+    <line x1="310" y1="194" x2="250" y2="246"/>
+    <line x1="295" y1="220" x2="265" y2="220"/>
+  </g>
+
+  <!-- Two-phase region (binodal envelope) -->
+  <!-- A curved closed region inside the triangle representing two-phase coexistence -->
+  <path d="M 280 320
+           C 300 240, 350 200, 410 215
+           C 460 230, 470 280, 460 320
+           C 440 340, 320 340, 280 320 Z"
+        fill="url(#twoPhase)"
+        stroke="#bf6a00"
+        stroke-width="1.8"/>
+
+  <!-- Tie lines (dashed) connecting equilibrium compositions in two-phase region -->
+  <line x1="295" y1="298" x2="450" y2="305" stroke="#bf6a00" stroke-width="0.9" stroke-dasharray="4,3" opacity="0.75"/>
+  <line x1="305" y1="278" x2="445" y2="290" stroke="#bf6a00" stroke-width="0.9" stroke-dasharray="4,3" opacity="0.75"/>
+  <line x1="320" y1="252" x2="430" y2="265" stroke="#bf6a00" stroke-width="0.9" stroke-dasharray="4,3" opacity="0.75"/>
+  <line x1="345" y1="225" x2="410" y2="230" stroke="#bf6a00" stroke-width="0.9" stroke-dasharray="4,3" opacity="0.75"/>
+
+  <!-- Two-phase region label -->
+  <text x="370" y="280" font-size="11" font-weight="700" fill="#bf6a00" text-anchor="middle">two-phase</text>
+  <text x="370" y="294" font-size="9" fill="#bf6a00" text-anchor="middle" font-style="italic">L + V coexistence</text>
+
+  <!-- Single-phase liquid label -->
+  <text x="265" y="200" font-size="10" fill="#3d5a80" text-anchor="middle" font-style="italic">single-phase</text>
+  <text x="265" y="213" font-size="10" fill="#3d5a80" text-anchor="middle" font-style="italic">(L)</text>
+
+  <!-- Single-phase vapour label -->
+  <text x="475" y="200" font-size="10" fill="#3d5a80" text-anchor="middle" font-style="italic">single-phase</text>
+  <text x="475" y="213" font-size="10" fill="#3d5a80" text-anchor="middle" font-style="italic">(V)</text>
+
+  <!-- Solver trajectory: trust-region Newton iterates approach the binodal curve -->
+  <!-- Starting outside, converges to point on phase envelope -->
+  <g>
+    <!-- Iteration arrows and points (trust-region path) -->
+    <circle cx="320" cy="180" r="4" fill="#3d5a80"/>
+    <text x="320" y="173" font-size="9" fill="#3d5a80" text-anchor="middle" font-weight="700">x₀</text>
+
+    <line x1="320" y1="180" x2="345" y2="215" stroke="#3d5a80" stroke-width="1.5"/>
+    <polygon points="340,210 345,215 339,217" fill="#3d5a80"/>
+    <circle cx="345" cy="215" r="3.5" fill="#3d5a80"/>
+
+    <line x1="345" y1="215" x2="368" y2="230" stroke="#3d5a80" stroke-width="1.5"/>
+    <polygon points="363,226 368,230 362,232" fill="#3d5a80"/>
+    <circle cx="368" cy="230" r="3.5" fill="#3d5a80"/>
+
+    <line x1="368" y1="230" x2="385" y2="237" stroke="#3d5a80" stroke-width="1.5"/>
+    <polygon points="381,232 385,237 380,238" fill="#3d5a80"/>
+    <circle cx="385" cy="237" r="4.5" fill="#3d5a80" stroke="#2e7d32" stroke-width="2"/>
+    <text x="392" y="242" font-size="9" fill="#2e7d32" font-weight="700">x* (converged)</text>
+  </g>
+
+  <!-- Vertex labels: composition components -->
+  <text x="370" y="80" font-size="13" font-weight="700" fill="#212529" text-anchor="middle">CO₂</text>
+  <text x="370" y="65" font-size="9" fill="#868e96" text-anchor="middle">100%</text>
+
+  <text x="208" y="370" font-size="13" font-weight="700" fill="#212529" text-anchor="middle">H₂O</text>
+  <text x="208" y="384" font-size="9" fill="#868e96" text-anchor="middle">100%</text>
+
+  <text x="532" y="370" font-size="13" font-weight="700" fill="#212529" text-anchor="middle">C₁</text>
+  <text x="532" y="384" font-size="9" fill="#868e96" text-anchor="middle">100%</text>
+
+  <!-- Annotation box: what this shows -->
+  <g transform="translate(40, 380)">
+    <rect width="640" height="48" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="6"/>
+    <text x="14" y="20" font-size="11" font-weight="700" fill="#3d5a80">Trust-region nonlinear solver for compositional reservoir simulation</text>
+    <text x="14" y="38" font-size="10" fill="#495057" font-style="italic">Globalized Newton iterations remain feasible across the phase envelope, where standard Newton frequently fails near the binodal curve.</text>
+  </g>
+</svg>

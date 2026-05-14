@@ -53,24 +53,24 @@ Fourier Neural Operator (FNO) surrogates trained on geophysical simulation data 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin-top: 1rem;">
 
   <div style="border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">⚡</div>
-    <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">Neural Operator Surrogates</h4>
-    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Fourier Neural Operators for spatio-temporal geophysical simulation — 10× faster than classical solvers with preserved physical fidelity.</p>
-    <a href="/portfolio/fno-surrogate/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
+    <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🧠</div>
+    <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">Neural Operators &amp; PINNs</h4>
+    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">FNO surrogates and physics-informed neural networks for fast, physically consistent simulation of geophysical fields — ~10× speedup with preserved physical fidelity.</p>
+    <a href="/portfolio/portfolio-1/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
   </div>
 
   <div style="border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🧠</div>
-    <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">PINNs for CO₂ Storage</h4>
-    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Physics-informed neural networks embedding PDE conservation laws into training, enabling accurate simulation of CO₂ plume migration in subsurface reservoirs.</p>
-    <a href="/portfolio/pinns-co2/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
+    <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">⚙️</div>
+    <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">Nonlinear Solvers for Compositional Flow</h4>
+    <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Trust-region globalization for robust Newton convergence across the phase envelope in compositional reservoir simulation, including discrete fracture networks.</p>
+    <a href="/portfolio/portfolio-2/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
   </div>
 
   <div style="border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
     <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🌍</div>
     <h4 style="margin: 0 0 0.4rem; color: #3d5a80;">Coupled Wellbore–Reservoir Model</h4>
     <p style="font-size: 0.88rem; color: #555; margin: 0 0 0.8rem;">Digital twin combining wellbore flow dynamics with reservoir simulation for real-time engineering decisions in CO₂ injection and geothermal operations.</p>
-    <a href="/portfolio/wellbore-reservoir/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
+    <a href="/portfolio/portfolio-3/" style="font-size: 0.82rem; background: #3d5a80; color: white; padding: 0.3rem 0.8rem; border-radius: 5px; text-decoration: none;">Explore →</a>
   </div>
 
 </div>

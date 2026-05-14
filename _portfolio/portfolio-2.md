@@ -1,32 +1,31 @@
 ---
-title: "Physics-Informed Neural Networks for CO₂ Storage"
-excerpt: "PINNs embedding PDE conservation laws into training for accurate CO₂ plume simulation<br/><img src='/images/pinns-diagram.svg' style='max-width:100%; margin-top:0.5rem;'>"
+title: "Nonlinear Solvers for Compositional Reservoir Simulation"
+excerpt: "Trust-region globalization for robust convergence of compositional multiphase flow solvers<br/><img src='/images/nonlinear-convergence.svg' style='max-width:100%; margin-top:0.5rem;'>"
 collection: portfolio
 ---
 
 <div style="text-align:center; margin: 1.5rem 0;">
-  <img src="/images/co2-plume.svg" alt="CO2 plume migration in subsurface reservoir" style="max-width:100%; border-radius:8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
+  <img src="/images/nonlinear-convergence.svg" alt="Compositional ternary diagram with trust-region solver trajectory" style="max-width:100%; border-radius:8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
 </div>
 
 ## Overview
 
-Physics-informed neural networks (PINNs) offer a mesh-free approach to solving PDEs by embedding physical conservation laws directly into the training objective. This project developed a **sequential training strategy** for PINNs applied to CO₂ injection and storage simulation, dramatically improving convergence stability for problems with sharp saturation fronts.
+Compositional reservoir simulation involves coupled nonlinear PDEs whose solution traverses the **phase envelope** in composition space — the boundary between single-phase and two-phase coexistence shown in the ternary diagram above. Near this boundary, the residual function becomes highly non-smooth, and **standard Newton-Raphson iterations frequently fail** to converge: step sizes become erratic, the iterate jumps in and out of the two-phase region, and progress stalls.
 
-<div style="text-align:center; margin: 1.5rem 0;">
-  <img src="/images/pinns-diagram.svg" alt="PINN architecture diagram" style="max-width:100%; border-radius:8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
-</div>
+## Approach
 
-## Methods
+This project developed a **trust-region globalization strategy** for nonlinear solvers within the operator-based linearisation (OBL) framework. Rather than taking the full Newton step at every iteration, the method adapts the step length based on a quadratic model of the residual reduction, keeping the iterate within a region of trust where the linearisation is reliable. As a result, the solver remains feasible across the phase envelope and converges robustly even on cases that defeat standard Newton.
 
-- **Physics loss:** PDE residual of two-phase, two-component CO₂–brine transport equations added directly to the training objective
-- **Sequential (curriculum) training:** domain expanded progressively in time, allowing the network to build accurate solutions incrementally without saturation-front divergence
-- **Boundary and initial condition enforcement:** hard constraint approach ensuring exact satisfaction at boundaries
-- **Benchmarking:** compared against classical finite-volume solver (DARTS) on heterogeneous reservoir test cases
+The same framework was extended to **discrete fracture network (DFN) models**, where extreme heterogeneity and high nonlinear contrast make convergence even harder. An adaptive variant combining trust-region with operator-based linearisation handles these cases without manual tuning of step-size parameters.
 
-## Why PINNs for CCUS?
+## Key results
 
-CO₂ storage simulation involves sharp phase-change fronts and heterogeneous media that challenge both traditional solvers (convergence cost) and pure data-driven surrogates (generalisation). PINNs with physics constraints offer a middle ground: mesh-free, differentiable, and physically consistent even in data-sparse regimes.
+- Robust convergence on CO₂ injection cases in saline aquifers and depleted reservoirs
+- Reduced nonlinear iteration counts compared to standard Newton in challenging convergence regimes
+- Adaptive variant successful on discrete fracture network problems with high permeability contrast
+- Framework integrated into the DARTS open-source reservoir simulation framework
 
 ## Publications
 
-- [Mansour Pour, Voskov (2023) — Journal of Machine Learning for Modeling and Computing](https://www.dl.begellhouse.com/journals/558048804a15188a,24f8785e4156a0df,157258503daf8310.html)
+- [Mansour Pour, Voskov, Bruhn (2023). Nonlinear solver based on trust region approximation for CO₂ utilization and storage in subsurface reservoir. *Geoenergy Science and Technology*.](https://www.sciencedirect.com/science/article/pii/S2949891023002853)
+- [Mansour Pour, Voskov (2020). Adaptive nonlinear solver for a discrete fracture model in operator-based linearization framework. *17th ECMOR*.](https://doi.org/10.3997/2214-4609.202035094)
